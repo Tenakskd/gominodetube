@@ -18,7 +18,7 @@ let apis = ["https://inv.nadeko.net/", "https://invidious.private.coffee/","http
     .then(r => r.json())
     .then((d) => {
         d.forEach((ar, count) => {
-            if (d[count][0].indexOf(".onion") == -1){
+            if (d[count][0].indexOf(".onion") == -1 && d[count][0].indexOf(".i2p") == -1){
                 apis.push("https://"+d[count][0]+"/");
             }
         });
