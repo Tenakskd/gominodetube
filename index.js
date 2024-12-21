@@ -4,7 +4,7 @@ const file = require("fs");
 const AbortController = require('abort-controller');
 
 const invidiousjson = "https://api.invidious.io/instances.json?pretty=1&sort_by=type,users";
-let apis = ["https://inv.nadeko.net/", "https://invidious.private.coffee/","https://invidious.protokolla.fi/",
+let apis = ["https://lekker.gay","https://invidious.schenkel.eti.br/","https://iv.duti.dev","https://invidious.private.coffee/","https://invidious.protokolla.fi/",
     "https://invidious.perennialte.ch/","https://yt.cdaut.de/","https://invidious.materialio.us/",
     "https://yewtu.be/","https://invidious.fdn.fr/","https://inv.tux.pizza/",
     "https://invidious.privacyredirect.com/","https://invidious.drgns.space/","https://vid.puffyan.us",
